@@ -17,5 +17,5 @@
   "background": {
     "scripts": ["js/background.js"]
   },
-  "permissions": ["https://www.tesco.com/groceries/*"]
+  "permissions": ["https://potravinydomov.itesco.sk/groceries/sk-SK/*"]
 }
