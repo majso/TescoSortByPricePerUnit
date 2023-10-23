@@ -1,7 +1,7 @@
 /* global chrome */
 
 function checkForValidUrl(tabId, changeInfo, tab) {
-  if (tab.url?.includes('tesco.com/groceries')) {
+  if (tab.url?.includes('potravinydomov.itesco.sk/groceries/sk-SK')) {
     chrome.pageAction.show(tabId)
     chrome.pageAction.setTitle({
       tabId,
